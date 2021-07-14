@@ -16,12 +16,12 @@ npm install show-message
 import ShowMessage from 'show-message'
 
 new ShowMessage({
-	title: 'This is a test message.', // 消息标题
-	icon: 'success', // 携带图标 success, failed, warning
-	duration: 2500, // 持续时间
-	cb() {
-		console.log('消息提醒完成')
-	}, // 提醒结束后的回调函数
+  title: 'This is a test message.', // 消息标题
+  icon: 'success', // 携带图标 success, failed, warning
+  duration: 2500, // 持续时间
+  cb() {
+	  console.log('消息提醒完成')
+  }, // 提醒结束后的回调函数
 })
 ```
 
@@ -33,12 +33,12 @@ new ShowMessage({
 
 ```js
 new ShowMessage({
-	title: 'This is a test message.', // 消息标题
-	icon: 'success', // 携带图标 success, failed, warning
-	duration: 2500, // 持续时间
-	cb() {
-		console.log('消息提醒完成')
-	}, // 提醒结束后的回调函数
+  title: 'This is a test message.', // 消息标题
+  icon: 'success', // 携带图标 success, failed, warning
+  duration: 2500, // 持续时间
+  cb() {
+	  console.log('消息提醒完成')
+  }, // 提醒结束后的回调函数
 })
 ```
 
