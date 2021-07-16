@@ -13,9 +13,9 @@ npm install show-message
 ### Usage
 
 ```js
-import ShowMessage from 'show-message'
+import showMessage from 'show-message'
 
-new ShowMessage({
+showMessage({
   title: 'This is a test message.', // 消息标题
   icon: 'success', // 携带图标 success, failed, warning
   duration: 2500, // 持续时间
@@ -32,7 +32,7 @@ new ShowMessage({
 ```
 
 ```js
-new ShowMessage({
+showMessage({
   title: 'This is a test message.', // 消息标题
   icon: 'success', // 携带图标 success, failed, warning
   duration: 2500, // 持续时间
